@@ -14,6 +14,7 @@ The design here is located in PicoBOB_plus_plus and is in KiCad
 
 Notes
 
+* Unlike PicoBOB RevB, I have gone back to using a Pi Pico devboard. I do not solder with the castellations but use a header placement approach. This simplifies board assembly by hand, and it allows more flexibility to revise while I'm playing with the hardware.
 * Uses bigger SMD (0805) and some TH parts currently just because of what I had laying around.
 * This is not supported in anyway.
 * If you want to have an easy time buy an Experia, see below.
@@ -21,6 +22,12 @@ Notes
 Software
 
 * GrblHal modifications needed for this pinout are in https://github.com/aselle/grblhal-RP2040/tree/picobob_plusplus
+
+Photos
+
+![Photo of PicoBob++](/readme_images/picobob_plusplus_photo.jpg)
+![Render of PicoBob++](/readme_images/picobob_plusplus_render.jpg)
+
 
 # PicoBOB for GRBLHAL
 

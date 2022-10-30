@@ -1,3 +1,27 @@
+# PicoBOB++ for GRBLHAL and one day LinuxCNC
+
+*This repo is for experimentation. If you want easy nice experience stick with the PicoBOB for now at (https://github.com/Expatria-Technologies/PicoBOB)*
+
+
+PicoBOB++ is currently an experimental design which is based on Experia's PicoBOB. The primary goals are
+
+The design here is located in PicoBOB_plus_plus and is in KiCad
+
+* Allow using LinuxCNC as well as GrblHal with ideally no rewiring
+  * Pins are reassigned to allow SPI to enable LinuxCNC
+  * Connects to Raspberry PI via header.
+* Use KiCad because I don't have Altium and know hot o use KiCad
+
+Notes
+
+* Uses bigger SMD (0805) and some TH parts currently just because of what I had laying around.
+* This is not supported in anyway.
+* If you want to have an easy time buy an Experia, see below.
+
+Software
+
+* GrblHal modifications needed for this pinout are in https://github.com/aselle/grblhal-RP2040/tree/picobob_plusplus
+
 # PicoBOB for GRBLHAL
 
 ![Logo](/readme_images/logo_sm.jpg)
@@ -45,3 +69,4 @@ The Mach3 BOB shares the B axis direction signal with a spindle relay enable sig
 
 <img src="/readme_images/boardpics.png" width="500">
 Above shows the PicoBOB A1 with a Pi Pico installed and connected to the Mach3/LinuxCNC parallel BOB.
+

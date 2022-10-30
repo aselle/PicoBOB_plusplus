@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "PicoBOB-altium-import")(type "KiCad")(uri "${KIPRJMOD}/PicoBOB-altium-import.kicad_sym")(options "")(descr ""))
+  (lib (name "PicoBob")(type "KiCad")(uri "${KIPRJMOD}/PicoBob.kicad_sym")(options "")(descr ""))
+)
